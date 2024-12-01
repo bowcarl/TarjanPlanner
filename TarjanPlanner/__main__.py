@@ -5,8 +5,6 @@ import create_graph
 import plot_graph
 import logger
 
-
-
 # Standard library imports
 import os
 

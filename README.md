@@ -1,6 +1,7 @@
-# ACIT4420-MorningMessage
+# ACIT4420-TarjanPlanner
 
-**ACIT4220-MorningMessage** is a morning greeting package developed as a part of the ACIT4420 course and mandatory assigment. The package includes four python files: **contact_manager.py**, **message_generator.py**, **message_sender.py** and **logger.py**. Additonaly the program has a `__main__.py` entrypoint, an `__init__.py` file to mark it as module, a **log_message.txt** file for logging and a **contacts.json** file were the contacts are stored.
+This program is created as a part of the course ACIT4420. The **ACIT4220-TarjanPlanner** is a tool created to calculate the shortest distance, and based on selected modes of transportation, calculate time and cost for Tarjan to visit his ten relatives. The package includes nine python files: **calculate_distance.py**, **load_data.py**, **get_visited_location.py**, **get_mode.py**, **logger.py**, **plot_graph.py**,**track_time.py** and **vechile.py**. Additonaly the program has a `__main__.py` entrypoint, an `__init__.py` file to mark it as module, a **log_message.txt** file for logging, **locations.json** file were the location information are stored and **mode_of_transport.json** were speed, transfer time and cost is factored in.
+
 ## Table of Contents
 - [Features](#features)
 - [Installation Manual](#installation)
@@ -10,10 +11,13 @@
 - [License](#license)
   
 ## Features
-- Interactions with contacts including adding, removing and delivery of greeting messages.
-- Easy to install and run using a command-line interface.
-- Educational for those learning Python and package management.
+- Calculate the shortest path to take given a location list
+- Caclulate the total distance for the shortest path
+- Calculate the total time given the mode of transport
+- Calculate the total cost given the mode of transport
+- Illustrate the decipted route as a graph with colors
 - Modular design for easy extension and maintenance.
+- Adaptable code, easy to add or remove locations
   
 ## Installation Manual
 
@@ -24,16 +28,16 @@ Follow these simple steps to install and set up the project:
 Firstly, clone the repository from GitHub (or download the package manually):
 
 ```bash
-git clone https://github.com/bowcarl/ACIT4420-MorningMessage.git
-cd ACIT4420-MorningMessage
+git clone https://github.com/bowcarl/ACIT4420-TarjanPlanner.git
+cd ACIT4420-TarjanPlanner
 ```
 2. **Create a virtual environment**
 
 Furthermore, It's recommended to create a virtual environment to isolate the project dependencies. Continue and run the following commands:
 
 ```bash
-python3 -m venv morningenv
-source morningenv/bin/activate # or with windows use `morningenv\Scripts\activate`
+python3 -m venv tarjanenv
+source tarjanenv/bin/activate # or with windows use `tarjanenv\Scripts\activate`
 ```
 
 3. **Install the Package**
@@ -47,31 +51,10 @@ pip install -e .
 ## Usage
 Once the package is installed you only need to run this command in your preffered terminal:
 ```bash
-morning_greetings
+TarjanPlanner
 ```
-This will launch a menu (from the **`__main__.py`** entrypoint) where you can choose between four options, which loops until the user exits the code:
-1. **Add a Contact**
-2. **Remove a Contact**
-3. **Send Morning Greeting Messages**
-4. **List Contacts**
-5. **Exit the code**
-
-Simply decide upon an option and follow the on-screen instructions for further guidance.
-
-Modules included:
-
-### 1. contact_manager.py
-A simple class managing contacts stored in a JSON file, with built in functions like **add_contact()**, **remove_contact()**, **load_contacts()**, **save_contacts()** and **list_contacts()**.
-
-### 2. message_generator.py
-Generates a personalized morning greeting message for a specific user throught the function **generate_message()**.
-
-### 3. logger.py
-Logs the morning greeting message for a specific user through the function **log_message()**.
-
-### 4. message_sender.py
-Sends a greeting message to a specific email address, raising an error if the email is not provided throught the function send_message().
-
+This will ask you for a several inputs choosing a transportation mode between each location.
+Simply decide upon your preffered transportation modes, and then the program will display the graph with color corresponding the your choices. In the terminal you will also see the visted nodes, total travel time, total distance and cost of the journey.
 
 ## Project Structure
 ```
@@ -101,6 +84,16 @@ ACIT4420-TarjanPlanner/
 ### Key Files
 - **`__main__.py`**: Contains the main function that launces the option menu.
 - **`setup.py`**: Scripts for installing the package.
+- **`distance_calculator.py`**: Calculates shortest distance
+- **`get_mode.py`**: Quirres transportation modes
+- **`load_data.py`**: Loads JSON data
+- **`get_visited_locations.py`**: Gets visited locations
+- **`vehicle.py`**: Class used to calculate time and cost
+- **`logger.py`**: Logs visited nodes to a text file
+- **`create_graph.py`**: Creates the nodes and edges
+- **`plot_graph.py`**: Styles the graph
+- **`track_time.py`**: Tracks execution time
+
 ## License
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/shailendrabhandari/project_game/blob/main/LICENSE) file for details.
 

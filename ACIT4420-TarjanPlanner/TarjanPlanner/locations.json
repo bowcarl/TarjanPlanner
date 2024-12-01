@@ -1,0 +1,78 @@
+[
+    {
+        "Street_Name": "Han River",
+        "District": "Yeouido",
+        "Latitude": 37.5225,
+        "Longitude": 126.9399
+    },
+    {
+        "Relative": "1",
+        "Street_Name": "Gangnam-daero",
+        "District": "Gangnam-gu",
+        "Latitude": 37.4979,
+        "Longitude": 127.0276
+    },
+    {
+        "Relative": "2",
+        "Street_Name": "Yangjae-daero",
+        "District": "Seocho-gu",
+        "Latitude": 37.4833,
+        "Longitude": 127.0322
+    },
+    {
+        "Relative": "3",
+        "Street_Name": "Sinsa-daero",
+        "District": "Gangnam-gu",
+        "Latitude": 37.5172,
+        "Longitude": 127.0286
+    },
+    {
+        "Relative": "4",
+        "Street_Name": "Apgujeong-ro",
+        "District": "Gangnam-gu",
+        "Latitude": 37.5219,
+        "Longitude": 127.0411
+    },
+    {
+        "Relative": "5",
+        "Street_Name": "Hannam-daero",
+        "District": "Yongsan-gu",
+        "Latitude": 37.5340,
+        "Longitude": 127.0026
+    },
+    {
+        "Relative": "6",
+        "Street_Name": "Seongsu-daero",
+        "District": "Seongdong-gu",
+        "Latitude": 37.5443,
+        "Longitude": 127.0557
+    },
+    {
+        "Relative": "7",
+        "Street_Name": "Cheongdam-ro",
+        "District": "Gangnam-gu",
+        "Latitude": 37.5172,
+        "Longitude": 127.0391
+    },
+    {
+        "Relative": "8",
+        "Street_Name": "Bukhan-ro",
+        "District": "Jongno-gu",
+        "Latitude": 37.5800,
+        "Longitude": 126.9844
+    },
+    {
+        "Relative": "9",
+        "Street_Name": "Samseong-ro",
+        "District": "Gangnam-gu",
+        "Latitude": 37.5110,
+        "Longitude": 127.0590
+    },
+    {
+        "Relative": "10",
+        "Street_Name": "Jamsil-ro",
+        "District": "Songpa-gu",
+        "Latitude": 37.5133,
+        "Longitude": 127.1028
+    }
+]

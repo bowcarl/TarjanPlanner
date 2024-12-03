@@ -10,8 +10,8 @@ setup(
     author_email="camor2778@oslomet.no",
     install_requires=[
        "geopy",
-       "networkx"
-       "matplotlib",
+       "networkx",
+       "matplotlib"
     ],
     entry_points={
         'console_scripts': [

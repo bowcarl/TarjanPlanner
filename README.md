@@ -28,7 +28,7 @@ Follow these simple steps to install and set up the project:
 Firstly, clone the repository from GitHub (or download the package manually):
 
 ```bash
-git clone https://github.com/bowcarl/ACIT4420-TarjanPlanner.git
+git clone https://github.com/bowcarl/TarjanPlanner.git
 cd ACIT4420-TarjanPlanner
 ```
 2. **Create a virtual environment**

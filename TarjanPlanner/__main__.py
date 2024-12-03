@@ -12,9 +12,6 @@ import create_graph
 import plot_graph
 import logger
 
-# Standard library imports
-import os
-
 # Global Constants
 INITIAL_POSITION = 0
 INITIAL_VISITED_NODES = [INITIAL_POSITION]

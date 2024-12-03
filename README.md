@@ -29,7 +29,7 @@ Firstly, clone the repository from GitHub (or download the package manually):
 
 ```bash
 git clone https://github.com/bowcarl/TarjanPlanner.git
-cd ACIT4420-TarjanPlanner
+cd TarjanPlanner
 ```
 2. **Create a virtual environment**
 
